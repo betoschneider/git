@@ -43,3 +43,4 @@ https://git-lfs.github.com/
 * retornar versões anteriores mantendo as alterações (no stage): git reset --soft HEAD~n
 * retornar versões anteriores e apagar as alterações (CUIDADO): git reset --hard HEAD~n
 * excluir um arquivo da pasta (repositório): git rm nome_do_arquivo e depois dar um commit
+* conectar um repositório remoto: git remote add origin <url do repositório>; git branch -M main; git pull origin main
